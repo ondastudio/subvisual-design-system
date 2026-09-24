@@ -1,0 +1,69 @@
+/* Text links (Figma: button-link). */
+@utility link {
+  color: var(--color-blue-default);
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  font-weight: 400;
+  text-shadow: 0 0 0 transparent;
+  transition: text-shadow 200ms ease;
+
+  &:hover {
+    text-shadow: 0.03em 0 0 currentColor;
+  }
+}
+
+@utility link-purple {
+  color: var(--color-purple-default);
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  font-weight: 400;
+  text-shadow: 0 0 0 transparent;
+  transition: text-shadow 200ms ease;
+
+  &:hover {
+    text-shadow: 0.03em 0 0 currentColor;
+  }
+}
+
+@utility link-secondary {
+  color: var(--color-black-default);
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: transparent;
+  text-shadow: 0 0 0 transparent;
+  transition:
+    color 200ms ease,
+    text-decoration-color 200ms ease,
+    text-shadow 200ms ease;
+
+  &:hover {
+    color: var(--color-blue-default);
+    text-shadow: 0.03em 0 0 currentColor;
+    text-decoration-color: var(--color-blue-default);
+  }
+}
+
+@utility link-inverted {
+  color: var(--color-white);
+  font-weight: 400;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-color: transparent;
+  text-shadow: 0 0 0 transparent;
+  transition:
+    text-decoration-color 200ms ease,
+    text-shadow 200ms ease;
+
+  &:hover {
+    text-shadow: 0.03em 0 0 currentColor;
+    text-decoration-color: var(--color-white);
+  }
+}
+
+@utility link-disabled {
+  color: var(--color-black-500);
+  text-decoration-line: underline;
+  font-weight: 400;
+  pointer-events: none;
+}

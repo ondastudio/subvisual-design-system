@@ -1,0 +1,40 @@
+/* Radii and motion, copied unchanged from subvisual-site. */
+@theme {
+  --radius-pill: 2.75rem;
+  --radius-navbar: 12.5rem;
+
+  --animate-slide-up-in: slide-up-in 1s ease-out both;
+  --animate-fade-up-in: fade-up-in 0.6s ease-out both;
+  --animate-scroll: scroll 20s linear infinite;
+}
+
+@keyframes slide-up-in {
+  from {
+    transform: translateY(100vh);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-up-in {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
