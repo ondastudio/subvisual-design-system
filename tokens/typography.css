@@ -1,0 +1,56 @@
+/*
+ * Typography: Figma text styles. Mobile first, desktop from 768px.
+ * Font files are licensed and NOT shipped here: each project declares
+ * @font-face for "Acta" (400) and "Colfax" (400, 500) itself (see README).
+ */
+@theme {
+  --font-heading: "Acta", serif;
+  --font-body: "Colfax", sans-serif;
+
+  --text-h1: 2.5rem;
+  --text-h1--line-height: 1.1;
+  --tracking-h1: -0.05rem;
+  --text-h2: 2rem;
+  --text-h2--line-height: 2.25rem;
+  --tracking-h2: -0.04rem;
+  --text-h3: 1.75rem;
+  --text-h3--line-height: 2rem;
+  --tracking-h3: -0.035rem;
+  --text-h4: 1.5rem;
+  --text-h4--line-height: 1.75rem;
+  --tracking-h4: -0.015rem;
+  --text-h5: 1.25rem;
+  --text-h5--line-height: 1.5rem;
+  --tracking-h5: -0.0125rem;
+
+  --text-body-lg: 1.25rem;
+  --text-body-lg--line-height: 1.5rem;
+  --tracking-body-lg: -0.00625rem;
+  --text-body-md: 1rem;
+  --text-body-md--line-height: 1.25rem;
+  --text-body-sm: 0.875rem;
+  --text-body-sm--line-height: 1rem;
+  --text-body-xsm: 0.75rem;
+  --text-body-xsm--line-height: 0.875rem;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --text-h1: 4rem;
+    --text-h1--line-height: 1;
+    --tracking-h1: -0.08rem;
+    --text-h2: 3rem;
+    --text-h2--line-height: 3.25rem;
+    --tracking-h2: -0.06rem;
+    --text-h3: 2.25rem;
+    --text-h3--line-height: 2.5rem;
+    --tracking-h3: -0.045rem;
+    --text-h4: 1.75rem;
+    --text-h4--line-height: 2rem;
+    --tracking-h4: -0.035rem;
+    --text-h5: 1.5rem;
+    --text-h5--line-height: 1.75rem;
+    --tracking-h5: -0.015rem;
+    --tracking-body-lg: -0.025rem;
+  }
+}
