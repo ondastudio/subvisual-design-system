@@ -1,0 +1,25 @@
+{
+  "name": "@subvisual/design-system",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Subvisual style guide: Tailwind v4 tokens, utilities and icons.",
+  "type": "module",
+  "style": "theme.css",
+  "exports": {
+    ".": { "style": "./theme.css" },
+    "./theme.css": "./theme.css",
+    "./icons/*": "./icons/*"
+  },
+  "files": ["theme.css", "tokens", "utilities", "icons"],
+  "scripts": {
+    "test": "bun test",
+    "icons:normalize": "bun scripts/normalize-icons.ts raw-icons icons"
+  },
+  "peerDependencies": {
+    "tailwindcss": "^4.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "4.2.1",
+    "tailwindcss": "4.2.1"
+  }
+}

@@ -1,0 +1,12 @@
+/*
+ * @subvisual/design-system
+ * Usage (after Tailwind):
+ *   @import "tailwindcss";
+ *   @import "@subvisual/design-system/theme.css";
+ */
+@import "./tokens/colors.css";
+@import "./tokens/typography.css";
+@import "./tokens/radius-motion.css";
+@import "./utilities/links.css";
+@import "./utilities/buttons.css";
+@import "./utilities/tags.css";
