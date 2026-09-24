@@ -1,0 +1,89 @@
+/* Colours: names and values from Figma (Colour section). Each scale's starred step equals its Default. */
+@theme {
+  --color-white: #ffffff;
+  --color-white-default: #ffffff;
+  --color-white-50: #ffffff;
+  --color-white-100: #efefef;
+  --color-white-200: #dcdcdc;
+  --color-white-300: #bdbdbd;
+  --color-white-400: #989898;
+  --color-white-500: #7c7c7c;
+  --color-white-600: #656565;
+  --color-white-700: #525252;
+  --color-white-800: #464646;
+  --color-white-900: #3d3d3d;
+  --color-white-950: #292929;
+
+  --color-black-default: #403f4c;
+  --color-black-25: #fbfbfb;
+  --color-black-50: #f7f7f8;
+  --color-black-100: #eeedf1;
+  --color-black-200: #d8d8df;
+  --color-black-300: #b6b6c3;
+  --color-black-400: #8f8ea2;
+  --color-black-500: #717087;
+  --color-black-600: #5b5a6f;
+  --color-black-700: #4c4a5a;
+  --color-black-800: #403f4c;
+  --color-black-900: #393842;
+  --color-black-950: #26252c;
+
+  --color-blue-default: #045cfc;
+  --color-blue-25: #f9fcff;
+  --color-blue-50: #edf8ff;
+  --color-blue-100: #d6edff;
+  --color-blue-200: #b6e1ff;
+  --color-blue-300: #84cfff;
+  --color-blue-400: #4bb4ff;
+  --color-blue-500: #2191ff;
+  --color-blue-600: #0970ff;
+  --color-blue-700: #045cfc;
+  --color-blue-800: #0a46c3;
+  --color-blue-900: #0f4099;
+  --color-blue-950: #0e275d;
+
+  --color-dark-blue-default: #2421ab;
+  --color-dark-blue-50: #ecf2ff;
+  --color-dark-blue-100: #dce6ff;
+  --color-dark-blue-200: #c0d0ff;
+  --color-dark-blue-300: #9bb1ff;
+  --color-dark-blue-400: #7385ff;
+  --color-dark-blue-500: #525dff;
+  --color-dark-blue-600: #3633f8;
+  --color-dark-blue-700: #2d26dc;
+  --color-dark-blue-800: #2421ab;
+  --color-dark-blue-900: #24248b;
+  --color-dark-blue-950: #171551;
+
+  --color-purple-default: #9563ff;
+  --color-purple-25: #fafaff;
+  --color-purple-50: #f5f2ff;
+  --color-purple-100: #ece8ff;
+  --color-purple-200: #dcd4ff;
+  --color-purple-300: #c3b1ff;
+  --color-purple-400: #a685ff;
+  --color-purple-500: #9563ff;
+  --color-purple-600: #7c30f7;
+  --color-purple-700: #6e1ee3;
+  --color-purple-800: #5c18bf;
+  --color-purple-900: #4c169c;
+  --color-purple-950: #2e0b6a;
+
+  --color-pink-50: #fef2f4;
+  --color-pink-100: #fde6e9;
+  --color-pink-200: #fbd0d9;
+  --color-pink-300: #f7aabb;
+  --color-pink-400: #f3809c;
+  --color-pink-500: #e94a75;
+  --color-pink-600: #d52960;
+  --color-pink-700: #b31d50;
+  --color-pink-800: #961b49;
+  --color-pink-900: #811a44;
+  --color-pink-950: #480921;
+
+  --color-bg-black: #1e1c17;
+
+  /* Not in Figma, kept from subvisual-site */
+  --color-teal-dark: #074058;
+  --color-dark-blue-light: #3633c5;
+}
