@@ -1,0 +1,16 @@
+/* Tags (Figma: Components → Tag). Use `tag` + one colour, e.g. class="tag tag-blue". */
+@utility tag {
+  @apply inline-flex items-center justify-center rounded-pill px-4 py-1 font-body text-body-md text-black-default backdrop-blur-[20px] transition-colors;
+}
+
+@utility tag-blue {
+  @apply bg-blue-200 hover:bg-blue-300;
+}
+
+@utility tag-purple {
+  @apply bg-purple-200 hover:bg-purple-300;
+}
+
+@utility tag-pink {
+  @apply bg-pink-200 hover:bg-pink-300;
+}

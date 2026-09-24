@@ -1,0 +1,98 @@
+/*
+ * Buttons (Figma: Components → Button). Use `btn` + one variant, e.g. class="btn btn-primary".
+ * Disabled: swap the variant for btn-disabled / btn-outline-disabled / btn-dashed-disabled.
+ * Outline variants also fill when a parent `.group` is hovered (subvisual-site arrow circle).
+ */
+@utility btn {
+  @apply inline-flex h-12 items-center justify-center rounded-pill px-6 font-body text-body-md whitespace-nowrap transition-colors;
+}
+
+@utility btn-primary {
+  @apply cursor-pointer bg-blue-default text-white hover:bg-blue-800;
+}
+
+@utility btn-primary-purple {
+  @apply cursor-pointer bg-purple-default text-white hover:bg-purple-600;
+}
+
+@utility btn-primary-dark-blue {
+  @apply cursor-pointer bg-dark-blue-default text-white hover:bg-dark-blue-900;
+}
+
+@utility btn-primary-pink {
+  @apply cursor-pointer bg-pink-500 text-white hover:bg-pink-600;
+}
+
+@utility btn-secondary {
+  @apply cursor-pointer bg-white text-blue-default hover:bg-blue-default hover:text-white;
+}
+
+@utility btn-tertiary {
+  @apply cursor-pointer bg-transparent text-blue-default hover:bg-blue-default hover:text-white;
+}
+
+@utility btn-outline {
+  @apply cursor-pointer border border-blue-default bg-transparent text-blue-default group-hover:bg-blue-default group-hover:text-white hover:bg-blue-default hover:text-white;
+}
+
+@utility btn-outline-purple {
+  @apply cursor-pointer border border-purple-default bg-transparent text-purple-default group-hover:bg-purple-default group-hover:text-white hover:bg-purple-default hover:text-white;
+}
+
+@utility btn-outline-pink {
+  @apply cursor-pointer border border-pink-600 bg-transparent text-pink-600 group-hover:bg-pink-600 group-hover:text-white hover:bg-pink-600 hover:text-white;
+}
+
+/* Standalone (don't combine with `btn`): Figma pads 24px left, 18px right around label + 20px chevron. */
+@utility btn-outline-icon {
+  @apply inline-flex h-12 cursor-pointer items-center justify-center gap-2 rounded-pill border border-blue-default bg-transparent pr-4.5 pl-6 font-body text-body-md whitespace-nowrap text-blue-default transition-colors hover:bg-blue-default hover:text-white;
+}
+
+@utility btn-dashed {
+  @apply cursor-pointer border border-dashed border-blue-default bg-transparent text-blue-default hover:bg-blue-default hover:text-white;
+}
+
+@utility btn-dashed-dark-blue {
+  @apply cursor-pointer border border-dashed border-dark-blue-default bg-transparent text-dark-blue-default hover:bg-dark-blue-default hover:text-white;
+}
+
+@utility btn-disabled {
+  @apply cursor-not-allowed bg-black-500 text-white;
+}
+
+@utility btn-outline-disabled {
+  @apply cursor-not-allowed border border-black-500 bg-transparent text-black-500;
+}
+
+@utility btn-dashed-disabled {
+  @apply cursor-not-allowed border border-dashed border-black-500 bg-transparent text-black-500;
+}
+
+/* Icon buttons (Figma: button-icon): 48px circle, put a 24px or 20px icon inside. */
+@utility btn-icon {
+  @apply inline-flex size-12 shrink-0 items-center justify-center rounded-pill transition-colors;
+}
+
+@utility btn-icon-primary {
+  @apply cursor-pointer bg-blue-default text-white hover:bg-blue-800;
+}
+
+@utility btn-icon-secondary {
+  @apply cursor-pointer bg-white text-blue-default hover:bg-blue-default hover:text-white;
+}
+
+@utility btn-icon-tertiary {
+  @apply cursor-pointer bg-transparent text-blue-default hover:bg-blue-default hover:text-white;
+}
+
+@utility btn-icon-outline {
+  @apply cursor-pointer border border-blue-default bg-transparent text-blue-default hover:bg-blue-default hover:text-white;
+}
+
+@utility btn-icon-outline-white {
+  @apply cursor-pointer border border-white bg-transparent text-white hover:border-blue-default hover:bg-blue-default;
+}
+
+@utility btn-icon-dashed {
+  @apply cursor-pointer border border-dashed border-blue-default bg-transparent text-blue-default hover:bg-blue-default hover:text-white;
+}
