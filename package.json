@@ -1,6 +1,6 @@
 {
   "name": "@subvisual/design-system",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "description": "Subvisual style guide: Tailwind v4 tokens, utilities and icons.",
   "type": "module",

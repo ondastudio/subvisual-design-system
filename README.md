@@ -62,6 +62,8 @@ Adjust the paths to wherever the project keeps the files. Never commit the font 
 | Tags | `tag` + `tag-blue`, `tag-purple`, `tag-pink` |
 | Icons | `icons/*.svg`: 24×24 frame, `currentColor`, no fixed size. Import raw (`…/icons/handshake.svg?raw`), render inline, and size/colour with classes (`size-6 text-blue-default`). |
 
+`calendar`, `checkbox-checked`, `group` and `person` come from the website designs (the rhythm timelines), not the Figma icon library. Every other icon is exported from the library.
+
 Spacing and layout use Tailwind's default scale. Figma's spacing values (8/16/20/24/28/32/36/40/56/60/80/96/120px) are all on it.
 
 **Heads-up:** only the colours listed above are Subvisual colours. Other Tailwind families (`red-*`, `gray-*`, …) still exist from Tailwind's defaults, so don't use them.

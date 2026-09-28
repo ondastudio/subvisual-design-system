@@ -6,7 +6,7 @@ const dir = resolve(import.meta.dir, "../icons");
 const files = () => readdirSync(dir).filter((f) => f.endsWith(".svg"));
 
 test("all Figma icons are present", () => {
-  expect(files().length).toBe(54);
+  expect(files().length).toBe(58);
 });
 
 test("icons are normalised", () => {
